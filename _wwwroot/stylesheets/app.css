@@ -1,0 +1,68 @@
+/*
+Syntax error: File to import not found or unreadable: foundation/common/ratios.
+              Load paths:
+                /home/james/dev/dapper/killers/_wwwroot/sass
+                /home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets
+                /home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 1 of /home/james/dev/dapper/killers/_wwwroot/sass/_settings.scss
+        from line 2 of /home/james/dev/dapper/killers/_wwwroot/sass/app.scss
+
+1: /home/james/dev/dapper/killers/_wwwroot/sass/app.scss
+
+Backtrace:
+/home/james/dev/dapper/killers/_wwwroot/sass/_settings.scss:1
+/home/james/dev/dapper/killers/_wwwroot/sass/app.scss:2
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/import_node.rb:45:in `import'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/import_node.rb:28:in `imported_file'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/import_node.rb:37:in `css_import?'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:215:in `visit_import'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:225:in `block in visit_import'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:225:in `map'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:225:in `visit_import'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `map'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/base.rb:37:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:98:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/tree/root_node.rb:20:in `render'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/engine.rb:315:in `_render'
+/home/james/.gem/ruby/1.9.1/gems/sass-3.2.5/lib/sass/engine.rb:262:in `render'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/bin/compass:44:in `call'
+/home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+/home/james/.gem/ruby/1.9.1/bin/compass:23:in `load'
+/home/james/.gem/ruby/1.9.1/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: foundation/common/ratios.\A               Load paths:\A                 /home/james/dev/dapper/killers/_wwwroot/sass\A                 /home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /home/james/.gem/ruby/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /home/james/dev/dapper/killers/_wwwroot/sass/_settings.scss\A         from line 2 of /home/james/dev/dapper/killers/_wwwroot/sass/app.scss\A \A 1: /home/james/dev/dapper/killers/_wwwroot/sass/app.scss"; }
