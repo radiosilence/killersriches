@@ -3,7 +3,64 @@
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
+@import "compass/css3/box-shadow";
 
+html {
+    background: url(../images/kye.jpg) no-repeat center center fixed; 
+      background-size: cover;
+    background-position: 100% 0%;
+}
+body {
+    padding-top: 20%;
+    background-color: transparent;
+    div.main {
+        background-color: rgba(0,0,0,.75);
+        // background-color: black;
+        border-radius: 0px;
+        ul {
+            padding-left: 2em;
+        }
+        h1, h2, h3, h4, h5, li, p, cite, blockquote {
+            color: white;
+        }
+        border: 10px solid $white;
+        h1.title {
+            font-size: 98px;
+        }  
+    }
+    a, a:visited {
+        color: $white;
+        text-decoration: underline;
+    }
+    blockquote {
+        font-style: italic;
+        margin: 0.25em 0;
+        padding: 0.25em 40px;
+        line-height: 1.45;
+        position: relative;
+        border: 0;
+        cite {
+            a, a:visited {
+                color: $white;
+            }
+        } 
+    }
+    blockquote:before {
+        display: block;
+        content: "\201C";
+        font-size: 80px;
+        position: absolute;
+        left: 0px;
+        top: -30px;
+        color: $secondaryColor;
+    }
+    > footer {
+        background-color: $black;
+        height: 100px;
+        color: $white;
+        margin-top: 50px;
+    }
+}
 // ----------------------------------------
 // Import specific parts of Foundation by commenting the import "foundation"
 // and uncommenting what you want below. You must uncomment the following if customizing
