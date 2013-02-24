@@ -6047,32 +6047,51 @@ body {
 body div.main {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 0px;
+  padding-bottom: 15px;
   border: 0px solid white;
 }
-/* line 21, ../sass/app.scss */
+/* line 22, ../sass/app.scss */
 body div.main ul {
   padding-left: 2em;
 }
-/* line 24, ../sass/app.scss */
+/* line 25, ../sass/app.scss */
 body div.main h1, body div.main h2, body div.main h3, body div.main h4, body div.main h5, body div.main li, body div.main p, body div.main cite, body div.main blockquote {
   color: white;
 }
-/* line 28, ../sass/app.scss */
+/* line 29, ../sass/app.scss */
 body div.main h2, body div.main h3, body div.main h4 {
   text-shadow: 1px 1px 0px #aaaaaa;
 }
-/* line 32, ../sass/app.scss */
+/* line 33, ../sass/app.scss */
 body div.main h1.title {
   font-size: 72px;
   color: #c82222;
   text-shadow: 2px 2px 0px #580000;
 }
 /* line 38, ../sass/app.scss */
+body div.main .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16/9 ratio */
+  padding-top: 30px;
+  /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+}
+/* line 44, ../sass/app.scss */
+body div.main .embed-container iframe, body div.main .embed-container object, body div.main .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 53, ../sass/app.scss */
 body a, body a:visited {
   color: white;
   text-decoration: underline;
 }
-/* line 42, ../sass/app.scss */
+/* line 57, ../sass/app.scss */
 body blockquote {
   font-style: italic;
   margin: 0.25em 0;
@@ -6081,11 +6100,11 @@ body blockquote {
   position: relative;
   border: 0;
 }
-/* line 50, ../sass/app.scss */
+/* line 65, ../sass/app.scss */
 body blockquote cite a, body blockquote cite a:visited {
   color: white;
 }
-/* line 55, ../sass/app.scss */
+/* line 70, ../sass/app.scss */
 body blockquote:before {
   display: block;
   content: "\201C";
@@ -6095,7 +6114,7 @@ body blockquote:before {
   top: -30px;
   color: #7a7a7a;
 }
-/* line 64, ../sass/app.scss */
+/* line 79, ../sass/app.scss */
 body > footer {
   background-color: black;
   height: 100px;
