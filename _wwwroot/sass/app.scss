@@ -4,6 +4,7 @@
 // Comment out this import if you are customizing you imports below
 @import "foundation";
 @import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
 
 html {
     background: url(../images/kye.jpg) no-repeat center center fixed; 
@@ -23,9 +24,11 @@ body {
         h1, h2, h3, h4, h5, li, p, cite, blockquote {
             color: white;
         }
-        border: 6px solid $white;
+        border: 0px solid $white;
         h1.title {
             font-size: 72px;
+            color: $mainColor;
+            @include single-text-shadow;
         }  
     }
     a, a:visited {

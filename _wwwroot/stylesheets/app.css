@@ -6031,42 +6031,44 @@ table.hide-for-medium {
     margin: 0;
   }
 }
-/* line 8, ../sass/app.scss */
+/* line 9, ../sass/app.scss */
 html {
   background: url(../images/kye.jpg) no-repeat center center fixed;
   background-size: cover;
   background-position: 100% 0%;
 }
 
-/* line 13, ../sass/app.scss */
+/* line 14, ../sass/app.scss */
 body {
   padding-top: 20%;
   background-color: transparent;
 }
-/* line 16, ../sass/app.scss */
+/* line 17, ../sass/app.scss */
 body div.main {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 0px;
-  border: 6px solid white;
+  border: 0px solid white;
 }
-/* line 20, ../sass/app.scss */
+/* line 21, ../sass/app.scss */
 body div.main ul {
   padding-left: 2em;
 }
-/* line 23, ../sass/app.scss */
+/* line 24, ../sass/app.scss */
 body div.main h1, body div.main h2, body div.main h3, body div.main h4, body div.main h5, body div.main li, body div.main p, body div.main cite, body div.main blockquote {
   color: white;
 }
-/* line 27, ../sass/app.scss */
+/* line 28, ../sass/app.scss */
 body div.main h1.title {
   font-size: 72px;
+  color: #c82222;
+  text-shadow: 2px 2px 0px #580000;
 }
-/* line 31, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
 body a, body a:visited {
   color: white;
   text-decoration: underline;
 }
-/* line 35, ../sass/app.scss */
+/* line 38, ../sass/app.scss */
 body blockquote {
   font-style: italic;
   margin: 0.25em 0;
@@ -6075,11 +6077,11 @@ body blockquote {
   position: relative;
   border: 0;
 }
-/* line 43, ../sass/app.scss */
+/* line 46, ../sass/app.scss */
 body blockquote cite a, body blockquote cite a:visited {
   color: white;
 }
-/* line 48, ../sass/app.scss */
+/* line 51, ../sass/app.scss */
 body blockquote:before {
   display: block;
   content: "\201C";
@@ -6089,7 +6091,7 @@ body blockquote:before {
   top: -30px;
   color: #7a7a7a;
 }
-/* line 57, ../sass/app.scss */
+/* line 60, ../sass/app.scss */
 body > footer {
   background-color: black;
   height: 100px;

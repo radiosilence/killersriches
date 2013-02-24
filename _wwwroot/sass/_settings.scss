@@ -24,6 +24,11 @@ $white: #fff;
 // $darkEdge: rgba(#000, .2);
 
 // Font Settings
+$default-text-shadow-color: #580000;
+$default-text-shadow-blur: 0px;
+$default-text-shadow-v-offset: 2px;
+$default-text-shadow-h-offset: 2px;
+$default-text-shadow-spread: false;
 
 $fontSmoothing: antialiased;
 $headerFontFamily: 'Trade Winds', Georgia, serif;
