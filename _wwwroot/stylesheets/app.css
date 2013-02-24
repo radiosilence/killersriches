@@ -6033,19 +6033,19 @@ table.hide-for-medium {
 }
 /* line 9, ../sass/app.scss */
 html {
-  background: url(../images/kye.jpg) no-repeat center center fixed;
+  background: url(../images/kye2.jpg) no-repeat center center fixed;
   background-size: cover;
   background-position: 100% 0%;
 }
 
 /* line 14, ../sass/app.scss */
 body {
-  padding-top: 20%;
+  padding-top: 50px;
   background-color: transparent;
 }
 /* line 17, ../sass/app.scss */
 body div.main {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.85);
   border-radius: 0px;
   padding-bottom: 15px;
   border: 0px solid white;
@@ -6060,7 +6060,7 @@ body div.main h1, body div.main h2, body div.main h3, body div.main h4, body div
 }
 /* line 29, ../sass/app.scss */
 body div.main h2, body div.main h3, body div.main h4 {
-  text-shadow: 1px 1px 0px #aaaaaa;
+  text-shadow: 1px 1px 0px #cccccc;
 }
 /* line 33, ../sass/app.scss */
 body div.main h1.title {
