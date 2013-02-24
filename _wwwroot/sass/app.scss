@@ -22,13 +22,17 @@ body {
             padding-left: 2em;
         }
         h1, h2, h3, h4, h5, li, p, cite, blockquote {
-            color: white;
+            color: $white;
         }
         border: 0px solid $white;
+        h2, h3, h4 {
+            @include single-text-shadow(1px, 1px, 0px, false, #aaa);
+
+        }
         h1.title {
             font-size: 72px;
             color: $mainColor;
-            @include single-text-shadow;
+            @include single-text-shadow(2px, 2px, 0px, false, #580000);
         }  
     }
     a, a:visited {
