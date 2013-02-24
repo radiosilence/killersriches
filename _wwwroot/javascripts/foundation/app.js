@@ -37,5 +37,8 @@
       }, 0);
     });
   }
-
+  $("#featured").orbit({
+    animation: 'fade',
+    fluid: true,
+  });
 })(jQuery, this);

@@ -2792,7 +2792,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/_wwwroot/images/foundation/orbit/rotator-black.png?1361715230') no-repeat;
+  background: url('../images/foundation/orbit/rotator-black.png?1361715230') no-repeat;
   z-index: 3;
 }
 /* line 27, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
@@ -2814,7 +2814,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 .orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/_wwwroot/images/foundation/orbit/timer-black.png?1361715230') repeat 0 0;
+  background: url('../images/foundation/orbit/timer-black.png?1361715230') repeat 0 0;
 }
 /* line 32, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .orbit-wrapper span.pause {
@@ -2824,13 +2824,13 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/_wwwroot/images/foundation/orbit/pause-black.png?1361715230') no-repeat;
+  background: url('../images/foundation/orbit/pause-black.png?1361715230') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 /* line 33, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .orbit-wrapper span.pause.active {
-  background: url('/_wwwroot/images/foundation/orbit/pause-black.png?1361715230') no-repeat 0 -40px;
+  background: url('../images/foundation/orbit/pause-black.png?1361715230') no-repeat 0 -40px;
 }
 /* line 35, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .orbit-wrapper .timer:hover span.pause, .orbit-wrapper .timer:focus span.pause, .orbit-wrapper span.pause.active {
@@ -2877,24 +2877,24 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 48, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .orbit-wrapper .slider-nav span.right {
-  background: url('/_wwwroot/images/foundation/orbit/right-arrow.png?1361715230');
+  background: url('../images/foundation/orbit/right-arrow.png?1361715230');
   background-size: 100%;
   right: 0;
 }
 /* line 49, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .orbit-wrapper .slider-nav span.left {
-  background: url('/_wwwroot/images/foundation/orbit/left-arrow.png?1361715230');
+  background: url('../images/foundation/orbit/left-arrow.png?1361715230');
   background-size: 100%;
   left: 0;
 }
 
 /* line 54, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .lt-ie9 .orbit-wrapper .slider-nav span.right {
-  background: url('/_wwwroot/images/foundation/orbit/right-arrow-small.png?1361715230');
+  background: url('../images/foundation/orbit/right-arrow-small.png?1361715230');
 }
 /* line 55, ../../../../../.gem/ruby/1.9.1/gems/zurb-foundation-3.2.5/scss/foundation/components/modules/_orbit.scss */
 .lt-ie9 .orbit-wrapper .slider-nav span.left {
-  background: url('/_wwwroot/images/foundation/orbit/left-arrow-small.png?1361715230');
+  background: url('../images/foundation/orbit/left-arrow-small.png?1361715230');
 }
 
 /* Bullet Nav ---------------------- */
@@ -2915,7 +2915,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/_wwwroot/images/foundation/orbit/bullets.jpg?1361715230') no-repeat 4px 0;
+  background: url('../images/foundation/orbit/bullets.jpg?1361715230') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -6055,7 +6055,8 @@ body div.main ul {
   padding-left: 2em;
 }
 /* line 25, ../sass/app.scss */
-body div.main h1, body div.main h2, body div.main h3, body div.main h4, body div.main h5, body div.main li, body div.main p, body div.main cite, body div.main blockquote {
+body div.main P
+h1, body div.main h2, body div.main h3, body div.main h4, body div.main h5, body div.main li, body div.main p, body div.main cite, body div.main blockquote {
   color: white;
 }
 /* line 29, ../sass/app.scss */
@@ -6086,12 +6087,23 @@ body div.main .embed-container iframe, body div.main .embed-container object, bo
   width: 100%;
   height: 100%;
 }
-/* line 53, ../sass/app.scss */
+/* line 52, ../sass/app.scss */
+body div.main div.slide-wrapper {
+  max-width: 480px;
+  float: right;
+  overflow: hidden;
+  display: block;
+}
+/* line 58, ../sass/app.scss */
+body div.main div.slide-wrapper div.featured img {
+  width: 100%;
+}
+/* line 64, ../sass/app.scss */
 body a, body a:visited {
   color: white;
   text-decoration: underline;
 }
-/* line 57, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 body blockquote {
   font-style: italic;
   margin: 0.25em 0;
@@ -6100,11 +6112,11 @@ body blockquote {
   position: relative;
   border: 0;
 }
-/* line 65, ../sass/app.scss */
+/* line 76, ../sass/app.scss */
 body blockquote cite a, body blockquote cite a:visited {
   color: white;
 }
-/* line 70, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 body blockquote:before {
   display: block;
   content: "\201C";
@@ -6114,7 +6126,7 @@ body blockquote:before {
   top: -30px;
   color: #7a7a7a;
 }
-/* line 79, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 body > footer {
   background-color: black;
   height: 100px;

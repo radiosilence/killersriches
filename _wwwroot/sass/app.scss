@@ -21,7 +21,7 @@ body {
         padding-bottom: 15px;
         ul {
             padding-left: 2em;
-        }
+        }P
         h1, h2, h3, h4, h5, li, p, cite, blockquote {
             color: $white;
         }
@@ -47,6 +47,17 @@ body {
                 left: 0;
                 width: 100%;
                 height: 100%;
+            }
+        }
+        div.slide-wrapper {
+            max-width: 480px;
+            float: right;
+            overflow: hidden;
+            display: block;
+            div.featured {
+                img {
+                    width: 100%;
+                }
             }
         }
     }
