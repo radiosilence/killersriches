@@ -6047,7 +6047,7 @@ body {
 body div.main {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 0px;
-  border: 10px solid white;
+  border: 6px solid white;
 }
 /* line 20, ../sass/app.scss */
 body div.main ul {
@@ -6059,7 +6059,7 @@ body div.main h1, body div.main h2, body div.main h3, body div.main h4, body div
 }
 /* line 27, ../sass/app.scss */
 body div.main h1.title {
-  font-size: 98px;
+  font-size: 72px;
 }
 /* line 31, ../sass/app.scss */
 body a, body a:visited {
